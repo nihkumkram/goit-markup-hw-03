@@ -28,6 +28,11 @@ img {
   display: block;
 }
 
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .container {
   max-width: 1158px;
   padding-left: 15px;
@@ -39,6 +44,7 @@ img {
 .container-header-container {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid var(--cornflower);
 }
 
 .container-nav {
@@ -141,10 +147,8 @@ img {
   cursor: pointer;
 }
 
-
 .page-about {
   color: #fff;
-  
 }
 .visual-hidden {
   position: absolute;
@@ -165,7 +169,6 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding-bottom: 13px;
-  
 }
 .about-paragraph {
   font-weight: 400;
@@ -173,7 +176,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  
 }
 .about-list {
   display: flex;
@@ -182,7 +184,6 @@ img {
 }
 .team {
   background-color: #f4f4fd;
-  
 }
 .team-title {
   text-transform: capitalize;
@@ -192,7 +193,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-top: 120px;
+
   padding-bottom: 80px;
 }
 .team-list {
@@ -201,11 +202,10 @@ img {
   padding-bottom: 120px;
   align-items: center;
   justify-content: center;
-  
-  
 }
 .team-list-unit {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: var(--white);
   border-radius: 0 0 4px 4px;
   background: #fff;
@@ -220,7 +220,6 @@ img {
   color: #2e2f42;
   padding-top: 32px;
   padding-bottom: 18px;
-  
 }
 .team-list-unit-p {
   font-weight: 400;
@@ -230,10 +229,8 @@ img {
   text-align: center;
   color: #434455;
   padding-bottom: 32px;
-
 }
 .portfolio {
-  padding-bottom: 120px;
 }
 .portfolio-title {
   text-transform: capitalize;
@@ -243,21 +240,18 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-top: 120px;
+
   padding-bottom: 72px;
 }
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  
-  
 }
 .portfolio-list-unit {
   border-bottom: 1px solid var(--cornflower);
-border-left: 1px solid var(--cornflower);
-border-right: 1px solid var(--cornflower);
-
+  border-left: 1px solid var(--cornflower);
+  border-right: 1px solid var(--cornflower);
 }
 .portfolio-list-title {
   font-weight: 500;
@@ -275,7 +269,6 @@ border-right: 1px solid var(--cornflower);
   letter-spacing: 0.02em;
   color: #434455;
   padding-bottom: 32px;
-  
 }
 .page-footer {
   background-color: #2e2f42;
