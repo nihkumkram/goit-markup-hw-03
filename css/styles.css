@@ -10,7 +10,6 @@ h4,
 h5,
 h6,
 p {
-  padding-left: 0;
   margin: 0;
 }
 
@@ -36,21 +35,19 @@ section {
 
 .container {
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header-container {
+  
+  align-items: center;
   border-bottom: 1px solid #e7e9fc;
-  padding-right: 15px;
-  padding-left: 15px;
+  margin: 0 auto;
 }
 
 .container-header-container {
   display: flex;
-  align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -186,6 +183,7 @@ section {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding-left: 0;
 }
 .about-list {
   display: flex;
@@ -193,7 +191,7 @@ section {
   gap: 24px;
 }
 
-.about-list:first-child {
+.about-list {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .team {
