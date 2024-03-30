@@ -41,12 +41,17 @@ section {
   margin-right: auto;
 }
 
-.container-header-container {
-  display: flex;
-  align-items: center;
+.header-container {
   border-bottom: 1px solid #e7e9fc;
   padding-top: 24px;
   padding-bottom: 24px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.container-header-container {
+  display: flex;
+  align-items: center;
 }
 
 .container-nav {
@@ -188,7 +193,7 @@ section {
 }
 
 .about-list:first-child {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .team {
   background-color: #f4f4fd;
@@ -289,9 +294,7 @@ section {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.container-footer {
 
-}
 
 .page-footer-title {
   font-family: "Raleway", sans-serif;
